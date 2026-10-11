@@ -27,6 +27,13 @@ swiftc -O main.swift -o HebFix
 ```
 Wrap the binary in a `HebFix.app` bundle with an `Info.plist` containing `LSUIElement = true`.
 
+## Windows
+1. Install [AutoHotkey v2](https://www.autohotkey.com/).
+2. Download [`windows/HebFix.ahk`](windows/HebFix.ahk) and double-click it. A green **H** icon appears in the tray.
+3. Select text → **Ctrl+Alt+H**.
+To start with Windows: press `Win+R`, type `shell:startup`, and put a shortcut to `HebFix.ahk` there.
+Prefer an `.exe`? Right-click the script → *Compile Script* (Ahk2Exe, bundled with AutoHotkey).
+
 License: MIT
 
 ---
@@ -61,6 +68,13 @@ License: MIT
 swiftc -O main.swift -o HebFix
 ```
 עוטפים את הקובץ ב-bundle בשם `HebFix.app` עם `Info.plist` שמכיל `LSUIElement = true`.
+
+### Windows
+1. מתקינים [AutoHotkey v2](https://www.autohotkey.com/).
+2. מורידים את [`windows/HebFix.ahk`](windows/HebFix.ahk) ופותחים בלחיצה כפולה. מופיע אייקון **H** ירוק במגש המערכת.
+3. מסמנים טקסט ← **Ctrl+Alt+H**.
+להפעלה עם Windows: `Win+R`, מקלידים `shell:startup`, ושמים שם קיצור ל-`HebFix.ahk`.
+רוצים קובץ `.exe`? לחיצה ימנית על הסקריפט ← *Compile Script*.
 
 רישיון: MIT
 
